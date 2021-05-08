@@ -4,7 +4,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity comparator_2bit is
     Port ( A,B : in STD_LOGIC_VECTOR(1 downto 0);
            eq : out STD_LOGIC);
-end comparator_2bit 
+end comparator_2bit; 
 
 architecture Behavioral of comparator_2bit is
     signal s0, s1 : STD_LOGIC;
